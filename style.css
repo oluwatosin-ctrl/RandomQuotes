@@ -54,3 +54,8 @@ p{
 button:focus{
     outline: none;
 }
+@media screen and (min-width: 480px) {
+  .display {
+    background-color: lightgreen;
+  }
+}
