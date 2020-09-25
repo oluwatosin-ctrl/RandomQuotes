@@ -54,8 +54,15 @@ p{
 button:focus{
     outline: none;
 }
-@media screen and (min-width: 480px) {
-  .display {
-    background-color: lightgreen;
-  }
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .display{
+    width: 30%;
+    height: 30%;
+    background-color: #ffffff;
+    color: slategrey;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    }
 }
